@@ -1,0 +1,480 @@
+@charset "UTF-8";
+/*프젝*/
+/*메인*/
+#js-img-size{
+	width: 100%;
+	height: 100%;
+}
+.js-main-text{
+	padding-top:50px;
+	width: 300px;
+	height: 400px;
+}
+.js-main-img{
+	min-width: 500px;
+	height: 500px;
+}
+.carousel-inner > .item > img {
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 500px;
+      max-height: 500px;
+    } 
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/*레이아웃 페이지별*/
+div.header{
+	width: 100%;
+	height:150px;
+	padding: 0 100px;
+}
+div.menu{
+	width: 100%;
+	padding: 0 100px;
+}
+.btn-login{
+	background: #39C976;
+}
+.btn-register{
+	background-color: #E2E2E2;
+}
+div#Menu-tab1{
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+div#Menu-tab4{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+div.Menu-tab{
+	width: 25%;
+	height: 60px;
+	cursor:pointer;
+	background-color: rgb(94, 94, 94);
+	float:left;
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 2.2em;	
+	font-style: italic;
+	font-weight: bold;
+}
+div.Menu-tab:hover{
+	background-color: #3D3232;
+}
+div.tab-active{
+	background-color: #3D3232;
+}
+
+div#headerlogo{
+	width:400px;
+	height:150px;
+	background-image: url("../css/images/logo.png");
+	background-size: 400px 150px;
+	float:left;
+}
+div.headerForm{
+	width:600px;
+	height:150px;
+	padding-top:70px;
+	float:right;
+}
+div.MenuForm{
+	width: 100%;
+	min-height: 130px;
+}
+div.headerMenu{
+	width: 100%;
+	height:60px;
+	float: left;
+}
+div.Menu-detail{
+	padding-top:7px;
+	display:none;
+	width: 100%;
+	height:60px;
+	background-color:#39C976;
+	float: left;
+}
+div.detail-tab{
+	width: 100%;
+	height: 30px;
+	cursor:pointer;	
+	float:left;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 2.2em;	
+}
+/*레이아웃*/
+div#main{
+	width:100%;
+	height:98%;
+	margin:0 auto;
+	font-size:10pt;
+	font-family:"맑은 고딕";
+}
+div#main_header{
+	margin-bottom:10px;
+	padding:0 10px 0 0;
+	float: both;
+}
+div#main_menu{
+	margin-bottom:10px;
+	float: both;
+}
+div#main_body{
+	float:left;
+	width:98%;
+	min-height:434px;
+	padding:10px 100px;
+}
+div#main_footer{
+	clear:both;
+	width:100%;
+	text-align:center;
+	vertical-align:bottom;
+	background-color:rgb(94, 94, 94);
+	
+}
+/*메뉴크기*/
+div.loginWindow{
+	width: 400px;
+}
+div.loginForm{
+	margin-bottom: 20px;
+}
+/*ul 스타일*/
+ul.search{
+	width: 600px;
+}
+ul.search li{
+	display: inline-block;
+	height: 48px;
+}
+ul{
+	list-style: none;	
+}
+ul.menu li{
+	display: inline;
+}
+.page-main-style{
+	width:98%;
+	margin:0 auto;
+}
+/*검색창*/
+.list-space{
+	width: 350px;
+}
+.result-display{
+	
+}
+ul.search li.sel{
+	vertical-align: top;
+}
+.selectBox01 {
+    width:100px;height:40px;
+    padding-left:10px;
+    font-size:14px;
+    font-weight:bold;
+    border: 2px solid #2db400;
+    appearance:none; /* 기본 스타일 없애기 */
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -o-appearance:none;
+}
+.selectBox01 select::-ms-expand {display:none;}
+.green_window {
+	display: inline-block;
+	width: 320px; height: 40px;
+	border: 2px solid #2db400;
+	background: white;
+}
+.input_text {
+	width: 300px; height: 21px;
+	margin: 5px 0 0 9px;
+	border: 0;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 16px;
+	outline: none;
+}
+.sch_smit {
+	width: 54px; height: 40px;
+	margin: 0; border: 0;
+	vertical-align: top;
+	background: #22B600;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.sch_smit:hover {
+	background: #56C82C;
+}
+/*폼*/
+p.js-style{
+	font-size: 15px;
+	color: black;
+}
+div.js-style{
+	border-radius: 10px;
+	background-color: #E5E5E5;
+	padding: 0 6px;
+}
+.form {
+  z-index: 15;
+  position: relative;
+  background: #FFFFFF;
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 100px auto 10px;
+  overflow: hidden;
+}
+.form-group {
+  margin: 0 0 20px;
+}
+.form-group label {
+  display: block;
+  margin: 0 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.form-group input {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+}
+.form-group input:focus {
+  color: rgba(0, 0, 0, 1);
+}
+.form-group button.js{
+	width:32%;
+}
+.form-group button {
+  outline: none;
+  background: #4285F4;
+  width: 49%;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline;
+}
+.form-group{
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.form-group{
+  width: auto;
+  margin: 0 10px 0 0;
+}
+.form-group{
+  color: #4285F4;
+  font-size: 12px;
+  text-decoration: none;
+}
+.form-panel {
+  margin: 0 auto;
+  padding-left: 100px;
+  width:500px;
+  box-sizing: border-box;
+}
+.form-panel1 {
+  margin: 0 auto;
+  width:700px;
+  box-sizing: border-box;
+}
+.form-header {
+  margin: 0 0 40px;
+}
+.form-header h1 {
+  padding: 4px 0;
+  color: #4285F4;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/*경기장*/
+.hide{
+	display:none; 
+}
+a.noul{
+	text-decoration: none;
+}
+a.noul:visited{
+	text-decoration: none;
+}
+a.noul:hover{
+	text-decoration: none;
+}
+button.js-close{
+	width: 30px;
+}
+p.js-loc_address{
+	height: 36.8px;
+}
+/*개인라인업*/
+div.js-appform{
+	width: 700px;
+	padding-left: 20px;
+}
+input.solo_date{
+	float:left;
+	width: 50%;
+}
+input.team_date{
+	float:left;
+	width: 50%;
+}
+.form-group input.js{
+	display:inline;
+	width:64%;
+}
+.js-inline{
+	display: inline;
+}
+.js-right{
+	float:right;
+	width:9%;
+	text-align:right;
+}
+.js-center-content{
+	margin-top:7px;
+	float:right;
+	width:73%;
+	text-align:left;
+}
+.js-left{
+	float:left;
+	width:15%;
+}
+.js-padd-bot{
+	padding-bottom:40px !important;
+}
+div.js-solo-style{
+	width: 320px;
+	float: left;
+}
+div.js-solo-style label{
+	border-radius:5px;
+	height:30px;
+	background-color: #E5E5E5;
+}
+.app_sel{
+	width:200px;height:30px;
+	font-size:14px;
+}
+button.js-app-btn{
+	width: 120px;
+	height: 50px;
+}
+div.app-form{
+	width: 120px;
+}
+/*주소폼*/
+.js-address{
+	width: 100px;
+	margin: 0 auto;
+	
+}
+.js-address-dia{
+	width: 100px;
+	margin: 0 auto;
+	height: 50px;
+	
+}
+.js-address-input{
+	width: 120px;
+}
+button.js-address-btn{
+	float:left;
+	width: 120px;
+	height: 50px;
+}
+/*개인 라인업*/
+div.js-solo-form{
+	float:left;
+	display:inline;
+	width: 638px;
+	height: 40px;
+}
+div.js-solo-btngp{
+	width: 100px;
+	height:29.6px;
+	float:left;
+}
+div.js-pn-back{
+	background-color: #ECECEC !important;
+}
+/*영상 게시판*/
+div.video-wid{
+	width: 520px;
+}
+.video-height{
+	height:52.8px 
+}
+/*팀라인업*/
+div.team-tb-wid{
+	width: 730px;
+}
+div.write-tb-wid{
+	width: 800px;!important;
+}
+div.write-tb-wid-solo{
+	width: 1000px;
+}
+/*경기장 검색폼*/
+a.js_loc_pop{
+	background-color: white;
+}
+/*버튼*/
+button.js-cancel{
+	background-color: red; 
+}
+/*table*/
+.js-tb-wid{
+	width: 520px;
+}
+/*정렬*/
+.js-center{
+	margin: 0 auto;
+}
+.align-center{
+	text-align:center;
+}
+.align-right{
+	text-align:right;
+}
+.align-left{
+	text-align:left;
+}
+
